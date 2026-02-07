@@ -40,6 +40,12 @@ VITE_CLERK_PUBLISHABLE_KEY=   # Clerk frontend key
 DATABASE_URL=                  # Neon connection string (used server-side/edge only)
 ```
 
+## Setup TODOs
+
+- [ ] Deploy and configure Clerk (create app, add publishable key to .env, wrap app in ClerkProvider)
+- [ ] Deploy and configure Neon (create project, add DATABASE_URL to .env, define schema)
+- [ ] Set up Trigger.dev (initialize, configure trigger.config.ts, create task directory)
+
 ## Conventions
 
 - All UI components must come from shadcn/ui. Use `npx shadcn@latest add <component>` to add new ones.
